@@ -1,0 +1,30 @@
+<suite name="testsuit" parallel="tests">
+	<test name="Chrometest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+
+			<class name="testngPrograms.ParmaTest" />
+		</classes>
+
+	</test>
+
+	<test name="FireFoxTest">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+
+			<class name="testngPrograms.ParmaTest" />
+		</classes>
+
+	</test>
+	<!--<test name="edge">
+		<parameter name="browser" value="firefox" />
+		<parameter url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+		<classes>
+
+			<class name="testngPrograms.ParmaTest" />
+		</classes>
+
+	</test>-->
+
+</suite>

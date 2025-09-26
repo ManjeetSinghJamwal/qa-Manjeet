@@ -1,0 +1,21 @@
+<suite name="testsuit">
+	<test name="test1">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="testngPrograms.ParmaTest" />
+		</classes>
+
+	</test>
+
+	<test name="test2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+
+			<class name="testngPrograms.ParmaTest" />
+		</classes>
+
+	</test>
+
+</suite>
